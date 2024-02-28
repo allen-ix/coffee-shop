@@ -1,0 +1,83 @@
+/* Positioning the video */
+.video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%; /* Adjust the width as needed */
+    height: 100vh; /* Set the height to cover the full viewport height */
+    z-index: -1; /* Ensure the video is behind other content */
+    overflow: hidden; /* Hide any overflow beyond the specified width and height */
+}
+
+/* Ensuring the video is responsive */
+.video-background video {
+    width: auto; /* Ensure the video adjusts its width according to its aspect ratio */
+    height: 100%; /* Ensure the video fills the entire height of its container */
+    max-width: none; /* Remove the maximum width limit */
+    max-height: none; /* Remove the maximum height limit */
+    object-fit: contain; /* Ensure the entire video is visible without cropping */
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset padding */
+}
+
+/* Positioning the text */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align the text */
+}
+
+.tagline {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    color: #000; /* Change to hex color code */
+    margin-left: 70px;
+}
+
+.sub-tagline {
+    font-size: 30px;
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-left: 70px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: left; /* Center align the buttons */
+    margin-left: 70px;
+}
+
+
+
+/* Styling the carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    top: calc(80% - 15px); /* Adjust the distance from the top as needed */
+    /* Adjust other styles as needed */
+}
+
+.carousel-control-next {
+    left: -25px; /* Adjust the distance from the left as needed */
+}
+
+.carousel-control-prev {
+    right: -25px; /* Adjust the distance from the right as needed */
+}
+
+
+/* Styling the carousel images */
+.carousel-item img {
+    height: 25%; /* Ensure images maintain aspect ratio */
+    max-width: 35%; /* Ensure images don't exceed the carousel width */
+    margin-top: 500px;
+    margin-left: 50px; 
+    margin-bottom: 50px;
+}
+
+/* Custom CSS for navbar */
+.navbar-brand img {
+    width: auto; /* Adjust the width of the logo */
+    height: 70px; 
+}
