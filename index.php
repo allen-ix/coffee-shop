@@ -69,16 +69,16 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="imgs/americano.jpg" class="d-block w-100" alt="americano">
+                <img src="imgs/americano1.png" class="d-block w-100" alt="americano">
                 </div>
                 <div class="carousel-item">
-                <img src="imgs/espresso.jpg" class="d-block w-100" alt="espresso">
+                <img src="imgs/espresso1.png" class="d-block w-100" alt="espresso">
                 </div>
                 <div class="carousel-item">
-                <img src="imgs/capuccino.jpg" class="d-block w-100" alt="capuccino">
+                <img src="imgs/capuccino1.png" class="d-block w-100" alt="capuccino">
                 </div>
                 <div class="carousel-item">
-                <img src="imgs/icedcoffee.jpg" class="d-block w-100" alt="icedcoffee">
+                <img src="imgs/icedcoffee1.png" class="d-block w-100" alt="icedcoffee">
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
