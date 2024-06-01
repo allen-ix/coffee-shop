@@ -28,18 +28,13 @@
                             <a class="nav-link" href="about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="apps.php">Apps</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
+                        <!-- Add the logout button -->
                         <li class="nav-item">
-                            <a class="btn btn-outline-light" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-outline-light" href="signup.php">Sign Up</a>
+                            <a class="nav-link" href="welcome.php">Logout</a>
                         </li>
                     </ul>
                 </div>
